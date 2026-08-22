@@ -14,3 +14,4 @@
 1. This technique is useful when you wish to find longest subarray with sum as K.
 2. The idea behind it is to hash (sum, index) during iteration inorder to find the sum K which might exists if totalSum-K exists in the hashmap.
 3. Since we need to find the longest subarray there may be a possibility that same sum exists at different indexes. In this case we do not update the (sum, index) entry if the index is higher than the entry's index.
+![Project Screenshot](assets/Hashing-1.png)
