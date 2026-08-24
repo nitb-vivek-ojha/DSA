@@ -9,3 +9,4 @@
 | [Minimum Size Subarray Sum (209)](https://leetcode.com/problems/minimum-size-subarray-sum/description/) | Sliding Window | 22-08-2026 | 29-08-2026 |
 | [Longest Repeating Character Replacement (424)](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | Sliding Window| 23-08-2026 | 30-08-2026 |
 | [Permutation In String (567)](https://leetcode.com/problems/permutation-in-string/description/) | Sliding Window| 24-08-2026 | 31-08-2026 |
+| [Fruits Into Baskets (904)](https://leetcode.com/problems/fruit-into-baskets/description/) | Sliding Window| 24-08-2026 | 31-08-2026 |

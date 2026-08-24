@@ -12,6 +12,7 @@
 | [Minimum Size Subarray Sum (209)](https://leetcode.com/problems/minimum-size-subarray-sum/description/) | Medium |
 | [Longest Repeating Character Replacement (424)](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | Medium |
 | [Permutation In String (567)](https://leetcode.com/problems/permutation-in-string/description/) | Medium |
+| [Fruits Into Baskets (904)](https://leetcode.com/problems/fruit-into-baskets/description/) | Medium |
 
 ## SLIDING WINDOW PATTERNS
 
