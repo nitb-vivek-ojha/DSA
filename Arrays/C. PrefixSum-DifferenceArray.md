@@ -44,7 +44,33 @@ for (int v : delta.values()) {              // ascending key order, guaranteed
     best = Math.max(best, cur);
 }
 ```
-[](../assets/Diff_Array-2.png)
+![](../assets/Diff_Array-2.png)
 
 ### VARIANT C (2D DIFF ARRAY)
-[](../assets/Diff_Array-3.png)
+![](../assets/Diff_Array-3.png)
+```Java
+class Solution {
+    public int[][] rangeAddQueries(int n, int[][] queries) {
+        int[][] d = new int[n + 2][n + 2];
+
+        for (int[] q : queries) {
+            int r1 = q[0], c1 = q[1], r2 = q[2], c2 = q[3];
+            d[r1]    [c1]     += 1;
+            d[r1]    [c2 + 1] -= 1;
+            d[r2 + 1][c1]     -= 1;
+            d[r2 + 1][c2 + 1] += 1;
+        }
+
+        int[][] ans = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                int up   = i > 0 ? ans[i - 1][j] : 0;
+                int left = j > 0 ? ans[i][j - 1] : 0;
+                int diag = (i > 0 && j > 0) ? ans[i - 1][j - 1] : 0;
+                ans[i][j] = d[i][j] + up + left - diag;
+            }
+        }
+        return ans;
+    }
+}
+```
