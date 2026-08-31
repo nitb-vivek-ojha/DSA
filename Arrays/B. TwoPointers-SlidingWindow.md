@@ -13,6 +13,7 @@
 | [Longest Repeating Character Replacement (424)](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | Medium |
 | [Permutation In String (567)](https://leetcode.com/problems/permutation-in-string/description/) | Medium |
 | [Fruits Into Baskets (904)](https://leetcode.com/problems/fruit-into-baskets/description/) | Medium |
+| [Check If All The Integers In a Range (1893)](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/) | Medium |
 
 ## SLIDING WINDOW PATTERNS
 
