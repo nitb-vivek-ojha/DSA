@@ -14,3 +14,4 @@
 | [Corporate Flight Bookings (1109)](https://leetcode.com/problems/corporate-flight-bookings/description/) | Difference Array| 31-08-2026 | 6-09-2026 |
 | [Check If All The Integers In a Range (1893)](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/) | Difference Array| 31-08-2026 | 6-09-2026 |
 | [Describe the Painting (1943)](https://leetcode.com/problems/describe-the-painting/submissions/2133433191/) | Difference Array| 7-09-2026 | 15-09-2026 |
+| [First & Last Position (34)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | Binary Search | 19-09-2026 | 26-09-2026 |

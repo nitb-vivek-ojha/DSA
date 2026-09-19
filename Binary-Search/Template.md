@@ -6,6 +6,7 @@
 | [Koko Eating Bananas (875)](https://leetcode.com/problems/koko-eating-bananas/submissions/2135278243/) | Medium |
 | [Capacity to Ship Package within d days (1011)](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/) | Medium |
 | [First & Last Position (34)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | Medium |
+| [Search Insert Position (35)](https://leetcode.com/problems/search-insert-position/description/) | Easy |
 
 ## PATTERNS
 ```Java
