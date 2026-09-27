@@ -67,7 +67,7 @@ public class Main {
 - Lower bound and upper bound of an element
 
 ```Java
-public class Temp{
+public class Example{
     public static void main(String[] args){
         int[] arr = {1,2,3,3,3,3,4,5,6};
         int target = 3, left = 0, right = arr.length-1;
@@ -99,6 +99,27 @@ public class Temp{
             Left:5 Right:5 Mid:5 Ans = 5
             Left:6 Right: 5
         */
+    }
+}
+```
+
+## PATTERN 3
+> This a specialized case of pattern 2 where you have to minimize your search space (lower bound) based on some condition. The condition or constraint returns `True` from a particular point k in search space otherwise `False`, our goal is to find that smallest point k - hence lower bound.
+
+```Java
+public class Example{
+    public static void main(String[] args){
+
+        while(left <= right){
+            int mid = left + (right-left)/2;
+            
+            if (condition()){
+                ans = mid;
+                right = mid-1;
+            }
+            else if(target > arr[mid]) left = mid+1;
+            else right = mid-1;
+        }
     }
 }
 ```
