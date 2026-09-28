@@ -117,8 +117,7 @@ public class Example{
                 ans = mid;
                 right = mid-1;
             }
-            else if(target > arr[mid]) left = mid+1;
-            else right = mid-1;
+            else left = mid+1;
         }
     }
 }
