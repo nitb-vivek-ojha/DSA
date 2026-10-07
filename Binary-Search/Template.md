@@ -7,6 +7,10 @@
 | [Capacity to Ship Package within d days (1011)](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/) | Medium |
 | [First & Last Position (34)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | Medium |
 | [Search Insert Position (35)](https://leetcode.com/problems/search-insert-position/description/) | Easy |
+| [Search in Rotated Array (33)](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | Medium |
+| [Search in Rotated Array 2 (81)](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | Medium |
+| [Find first & last Position of Element (34)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | Medium |
+| [Find minimum in rotated sorted array (153)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | Medium |
 
 ## PATTERN 1
 > Standard Binary Search
