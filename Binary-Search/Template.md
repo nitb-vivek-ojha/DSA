@@ -9,11 +9,14 @@
 | [Search Insert Position (35)](https://leetcode.com/problems/search-insert-position/description/) | Easy |
 
 ## PATTERN 1
+> Standard Binary Search
 - CASE 1: Target element is present in array
 - CASE 2: Target element is not present in the array 
     - a. `Target < arr[0]: ` left = 0, right = -1
     - b. `Traget > arr[arr.length-1]: ` left = arr.length, right = arr.length-1 
-- CASE 3: Target element is not present in the array but `arr[0] < Target < arr[arr.length-1]: ` left = element higher than target, right = element lower than target
+- CASE 3: Target element is not present in the array but `arr[0] < Target < arr[arr.length-1]` 
+    - left = element higher than target
+    - right = element lower than target
 
 ```Java
 public class Main {
@@ -64,7 +67,7 @@ public class Main {
 ```
 
 ## PATTERN 2
-- Lower bound and upper bound of an element
+> Lower bound and upper bound of an element
 
 ```Java
 public class Example{
@@ -104,7 +107,7 @@ public class Example{
 ```
 
 ## PATTERN 3
-> This a specialized case of pattern 2 where you have to minimize your search space (lower bound) based on some condition. The condition or constraint returns `True` from a particular point k in search space otherwise `False`, our goal is to find that smallest point k - hence lower bound.
+> This a specialized case of pattern 2 where you have to minimize your search space based on some condition. The condition or constraint returns `True` from a particular point k in search space otherwise `False`, our goal is to find that smallest point k (similar to finding lower bound of an element).
 
 ```Java
 public class Example{
@@ -118,6 +121,33 @@ public class Example{
                 right = mid-1;
             }
             else left = mid+1;
+        }
+    }
+}
+```
+
+## PATTERN 4
+> Search in rotated sorted array.
+- `arr[left] <= arr[mid]`: Either search in sorted part or shift to unsorted part.
+- `arr[mid] <= arr[right]`: Either search in sorted part or shift to unsorted part.
+- `arr[left] = arr[mid] = arr[right]`: Trim down the search space.
+
+```Java
+public class Example{
+    public static void main(String[] args){
+
+        while(left <= right){
+            int mid = left + (right-left)/2;
+            
+            if (left == mid or mid == target){
+                // calculate ans
+            }
+            else if(arr[mid] <= arr[right]){
+                // right part is sorted - search or shift (mid or mid-1)
+            }
+            else{
+                // left part is sorted - search or shift (mid or mid+1)
+            }
         }
     }
 }
