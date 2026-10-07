@@ -12,6 +12,9 @@
 | [Find first & last Position of Element (34)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | Medium |
 | [Find minimum in rotated sorted array (153)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | Medium |
 | [Check if Array is Sorted & Rotated (1752)](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/) | Easy |
+| [Find Rotation Count (1752)](https://www.geeksforgeeks.org/problems/rotation4723/1) | Easy |
+| [Single Element in a Sorted Array (540)](https://leetcode.com/problems/single-element-in-a-sorted-array/description/) | Medium |
+
 
 ## PATTERN 1
 > Standard Binary Search
