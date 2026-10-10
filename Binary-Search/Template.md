@@ -14,7 +14,7 @@
 | [Check if Array is Sorted & Rotated (1752)](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/) | Easy |
 | [Find Rotation Count (1752)](https://www.geeksforgeeks.org/problems/rotation4723/1) | Easy |
 | [Single Element in a Sorted Array (540)](https://leetcode.com/problems/single-element-in-a-sorted-array/description/) | Medium |
-
+| [Count Occurrence in Sorted Array](https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1) | Medium |
 
 ## PATTERN 1
 > Standard Binary Search
