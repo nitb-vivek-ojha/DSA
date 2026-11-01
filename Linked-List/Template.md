@@ -20,3 +20,45 @@
 | Insertion at Tail | O(N) or O(1) (If tail reference is present) |
 | Deletion at Head | O(1) |
 | Deletion at Tail | O(N) |
+
+## QUESTIONS
+| Question | Level |
+|----------|-------|
+| [Koko Eating Bananas (875)](https://leetcode.com/problems/koko-eating-bananas/submissions/2135278243/) | Medium |
+
+
+## PATTERNS
+> Insert a Node before Key
+```Java
+class Solution{
+    public static void main(String[] args){
+
+        // Special case: if the key is at the head
+        if (head == null) {
+            return null;
+        }
+        if (head.data == key) {
+            Node newNode = new Node(newData);
+            newNode.next = head;
+            return newNode;
+        }
+
+        // Initialize current and previous pointers
+        Node curr = head;
+        Node prev = null;
+
+        // Traverse the list to find the key
+        while (curr != null && curr.data != key) {
+            prev = curr;
+            curr = curr.next;
+        }
+
+        // If the key was found
+        if (curr != null) {
+            Node newNode = new Node(newData);
+            prev.next = newNode;
+            newNode.next = curr;
+        }
+    }
+}
+```
