@@ -24,7 +24,7 @@
 ## QUESTIONS
 | Question | Level |
 |----------|-------|
-| [Koko Eating Bananas (875)](https://leetcode.com/problems/koko-eating-bananas/submissions/2135278243/) | Medium |
+| [Remove Nth Node From End of List (9)](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium |
 
 
 ## PATTERNS
