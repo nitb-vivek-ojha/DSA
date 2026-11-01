@@ -1,5 +1,3 @@
-# LINKED LIST
-
 ## WHAT IS A LINKED LIST
 > A Linked List is a linear data structure that consists sequence of nodes. Each node consists two parts: Data & Next. The Data is the actual value and Next is a reference to subsequent node in the sequence.
 
