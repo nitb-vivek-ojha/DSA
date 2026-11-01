@@ -25,7 +25,7 @@
 | Question | Level |
 |----------|-------|
 | [Remove Nth Node From End of List (9)](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium |
-
+| [Delete a Node (No Head) (237)](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/2186924949/) | Medium |
 
 ## PATTERNS
 > Insert a Node before Key
