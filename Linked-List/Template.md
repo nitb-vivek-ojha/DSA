@@ -26,7 +26,9 @@
 |----------|-------|
 | [Remove Nth Node From End of List (9)](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium |
 | [Delete a Node (No Head) (237)](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/2186924949/) | Medium |
-| [Delete a Node in doubly LL (237)](https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1) | Easy |
+| [Delete a Node in doubly LL](https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1) | Easy |
+| [Reverse Doubly LL](https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1) | Easy |
+| [Reverse Linked List 2 (9)](https://leetcode.com/problems/reverse-linked-list-ii/description/) | Medium |
 
 ## PATTERNS
 > Insert a Node before Key
