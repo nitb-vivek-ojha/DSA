@@ -29,6 +29,7 @@
 | [Delete a Node in doubly LL](https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1) | Easy |
 | [Reverse Doubly LL](https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1) | Easy |
 | [Reverse Linked List 2 (9)](https://leetcode.com/problems/reverse-linked-list-ii/description/) | Medium |
+| [Add two numbers (2)](https://leetcode.com/problems/add-two-numbers/) | Medium |
 
 ## PATTERNS
 > Insert a Node before Key
