@@ -30,6 +30,7 @@
 | [Reverse Doubly LL](https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1) | Easy |
 | [Reverse Linked List 2 (9)](https://leetcode.com/problems/reverse-linked-list-ii/description/) | Medium |
 | [Add two numbers (2)](https://leetcode.com/problems/add-two-numbers/) | Medium |
+| [Odd Even Linked List (328)](https://leetcode.com/problems/odd-even-linked-list/description/) | Medium |
 
 ## PATTERNS
 > Insert a Node before Key
