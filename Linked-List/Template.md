@@ -31,6 +31,7 @@
 | [Reverse Linked List 2 (9)](https://leetcode.com/problems/reverse-linked-list-ii/description/) | Medium |
 | [Add two numbers (2)](https://leetcode.com/problems/add-two-numbers/) | Medium |
 | [Odd Even Linked List (328)](https://leetcode.com/problems/odd-even-linked-list/description/) | Medium |
+| [Sort Linked List of 0s, 1s, 2s](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) | Medium |
 
 ## PATTERNS
 > Insert a Node before Key
