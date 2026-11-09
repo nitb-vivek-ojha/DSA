@@ -39,6 +39,7 @@
 | [Detect cycle in Linked List (141)](https://leetcode.com/problems/linked-list-cycle/description/) | Easy |
 | [Linked List cycle II (142)](https://leetcode.com/problems/linked-list-cycle-ii/description/) | Easy |
 | [Linked List cycle length](https://www.geeksforgeeks.org/problems/find-length-of-loop/1) | Medium |
+| [Delete the Middle Node of Linked List (2095)](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/) | Medium |
 
 ### PATTERN 1
 > Detect a loop in the linked list
