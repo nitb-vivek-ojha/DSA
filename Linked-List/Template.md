@@ -37,40 +37,51 @@
 | [Intersection of Two Linked List (160)](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | Easy |
 | [Middle of Linked List (876)](https://leetcode.com/problems/middle-of-the-linked-list/description/) | Easy |
 | [Detect cycle in Linked List (141)](https://leetcode.com/problems/linked-list-cycle/description/) | Easy |
-| [Linked List cycel II (142)](https://leetcode.com/problems/linked-list-cycle-ii/description/) | Easy |
+| [Linked List cycle II (142)](https://leetcode.com/problems/linked-list-cycle-ii/description/) | Easy |
+| [Linked List cycle length](https://www.geeksforgeeks.org/problems/find-length-of-loop/1) | Medium |
 
-## PATTERNS
-> Insert a Node before Key
+### PATTERN 1
+> Detect a loop in the linked list
 ```Java
 class Solution{
     public static void main(String[] args){
+        ListNode fastPtr = head, slowPtr = head;
 
-        // Special case: if the key is at the head
-        if (head == null) {
-            return null;
-        }
-        if (head.data == key) {
-            Node newNode = new Node(newData);
-            newNode.next = head;
-            return newNode;
-        }
+        while(fastPtr != null && fastPtr.next != null){
+            slowPtr = slowPtr.next;
+            fastPtr = fastPtr.next.next;
 
-        // Initialize current and previous pointers
-        Node curr = head;
-        Node prev = null;
-
-        // Traverse the list to find the key
-        while (curr != null && curr.data != key) {
-            prev = curr;
-            curr = curr.next;
+            if(slowPtr == fastPtr) return true;
         }
+    }
+}
+```
 
-        // If the key was found
-        if (curr != null) {
-            Node newNode = new Node(newData);
-            prev.next = newNode;
-            newNode.next = curr;
+### PATTERN 2
+> Length of loop in the linked list
+```Java
+class Solution{
+    public static void main(String[] args){
+        Node fastPtr = head, slowPtr = head;
+        int length = 0;
+
+        while(fastPtr != null && fastPtr.next != null){
+            slowPtr = slowPtr.next;
+            fastPtr = fastPtr.next.next;
+
+            // loop is detected
+            if(slowPtr == fastPtr){
+                // count loop length
+                while(fastPtr.next != slowPtr){
+                    ++length;
+                    fastPtr = fastPtr.next;
+                }
+
+                return length+1;
+            }
         }
+        
+        return length;
     }
 }
 ```
