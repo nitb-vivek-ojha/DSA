@@ -40,6 +40,7 @@
 | [Linked List cycle II (142)](https://leetcode.com/problems/linked-list-cycle-ii/description/) | Easy |
 | [Linked List cycle length](https://www.geeksforgeeks.org/problems/find-length-of-loop/1) | Medium |
 | [Delete the Middle Node of Linked List (2095)](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/) | Medium |
+| [Delete all occurrences of a given key in a DLL](https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1) | Medium |
 
 ### PATTERN 1
 > Detect a loop in the linked list
