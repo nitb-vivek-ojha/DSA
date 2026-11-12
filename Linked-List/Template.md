@@ -41,6 +41,7 @@
 | [Linked List cycle length](https://www.geeksforgeeks.org/problems/find-length-of-loop/1) | Medium |
 | [Delete the Middle Node of Linked List (2095)](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/) | Medium |
 | [Delete all occurrences of a given key in a DLL](https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1) | Medium |
+| [Pair Sum in Sorted Doubly Linked List](https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1) | Easy |
 
 ### PATTERN 1
 > Detect a loop in the linked list
