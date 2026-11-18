@@ -43,6 +43,7 @@
 | [Delete all occurrences of a given key in a DLL](https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1) | Medium |
 | [Pair Sum in Sorted Doubly Linked List](https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1) | Easy |
 | [Reverse Nodes in K groups (5)](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | Hard |
+| [Rotate a linked list](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1) | Medium |
 
 ### PATTERN 1
 > Detect a loop in the linked list
