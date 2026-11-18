@@ -44,6 +44,7 @@
 | [Pair Sum in Sorted Doubly Linked List](https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1) | Easy |
 | [Reverse Nodes in K groups (5)](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | Hard |
 | [Rotate a linked list](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1) | Medium |
+| [Merge two sorted lists (21)](https://leetcode.com/problems/merge-two-sorted-lists/description/) | Easy |
 
 ### PATTERN 1
 > Detect a loop in the linked list
