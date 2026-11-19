@@ -45,6 +45,7 @@
 | [Reverse Nodes in K groups (5)](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | Hard |
 | [Rotate a linked list](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1) | Medium |
 | [Merge two sorted lists (21)](https://leetcode.com/problems/merge-two-sorted-lists/description/) | Easy |
+| [Flatten a doubly linked list (430)](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/) | Medium |
 
 ### PATTERN 1
 > Detect a loop in the linked list
