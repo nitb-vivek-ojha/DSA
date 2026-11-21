@@ -46,6 +46,7 @@
 | [Rotate a linked list](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1) | Medium |
 | [Merge two sorted lists (21)](https://leetcode.com/problems/merge-two-sorted-lists/description/) | Easy |
 | [Flatten a doubly linked list (430)](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/) | Medium |
+| [Merge K sorted linked list (23)](https://leetcode.com/problems/merge-k-sorted-lists/description/) | Hard |
 
 ### PATTERN 1
 > Detect a loop in the linked list
